@@ -6,10 +6,12 @@ using UnityEngine;
  * It allows to feed an integer number to the text field.
  */
 [RequireComponent(typeof(TMP_Text))]
-public class NumberField : MonoBehaviour {
+public class NumberField : MonoBehaviour
+{
     private int number;
     private TMP_Text text;
-    public int GetNumber() {
+    public int GetNumber()
+    {
         return this.number;
     }
 
@@ -18,7 +20,8 @@ public class NumberField : MonoBehaviour {
         text = GetComponent<TMP_Text>();
     }
 
-    public void SetNumber(int newNumber) {
+    public void SetNumber(int newNumber)
+    {
         this.number = newNumber;
         if (text != null)
         {
@@ -26,7 +29,8 @@ public class NumberField : MonoBehaviour {
         }
     }
 
-    public void AddNumber(int toAdd) {
+    public void AddNumber(int toAdd)
+    {
         SetNumber(this.number + toAdd);
     }
 }

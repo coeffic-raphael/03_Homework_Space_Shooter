@@ -18,8 +18,9 @@ public class HeartSpawner : MonoBehaviour
         {
             float delay = Random.Range(minDelay, maxDelay);
             yield return new WaitForSeconds(delay);
-            SpawnHeartInCamera();}
-            }
+            SpawnHeartInCamera();
+        }
+    }
     private void SpawnHeartInCamera()
     {
         if (heartPrefab == null)

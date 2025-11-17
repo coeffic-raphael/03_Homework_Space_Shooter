@@ -22,6 +22,6 @@ public class HeartsUI : MonoBehaviour
                 hearts[i].enabled = false;
             }
         }
-        
+
     }
 }
