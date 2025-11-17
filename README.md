@@ -4,19 +4,16 @@
 ## Author:
 👤 Raphaël Coeffic — 337614747
 
----
 
 ## Play the Game  
 Itch.io Link: https://raphael-coeffic.itch.io/03-homework
 
----
 
 ## Game Description  
 Space Survivor is a fast-paced 2D arcade shooter made in Unity.  
 You control a small spaceship, destroy enemies, collect hearts, survive waves, and try to achieve the highest score.
 This project was developed for the Game Development Course in university.
 
----
 
 ## How to Play:  
 
@@ -29,7 +26,6 @@ This project was developed for the Game Development Course in university.
 - When lives reach 0 it's Game Over
 - When you finish the levels you win.
 
----
 
 ## Features Added for the Assignment  
 
