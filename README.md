@@ -46,6 +46,6 @@ This project was developed for the Game Development Course in university.
 Background music on the game, a music of game over and a music for victory
 
 ### 4. Animated scrolling background  
-- Vertical movement creates a dynamic “space-travel” effect.
+Vertical movement creates a dynamic “space-travel” effect.
 
 
