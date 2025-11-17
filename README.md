@@ -2,7 +2,7 @@
 ## Unity Project –  3. Prefabs & Triggers Assignment  
 
 ## Author:
-**👤 Raphaël Coeffic — 337614747
+👤 Raphaël Coeffic — 337614747
 
 ---
 
@@ -46,24 +46,10 @@ This project was developed for the Game Development Course in university.
 - Pickups disappear after a few seconds.  
 - Collecting one restores life (max capped).
 
-### 3. Background music + sound effects  
-Includes SFX for:  
-- Shooting  
-- Enemy death  
-- Heart collected  
-- Player death  
-- Final victory  
-Music persists between scenes.
+### 3. Music 
+Background music on the game, a music of game over and a music for victory
 
-### ✅ 6. Animated scrolling background  
+### 4. Animated scrolling background  
 - Vertical movement creates a dynamic “space-travel” effect.
 
-### ✅ 7. Extra polish & improvements  
-- Improved UI layout  
-- Clean scripts  
-- Better prefab/layer organization  
-
----
-
-## 📁 Project Structure  
 
