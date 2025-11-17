@@ -1,42 +1,69 @@
-# Unity week 2: Formal elements
+# Space Survivor  
+## Unity Project –  3. Prefabs & Triggers Assignment  
 
-A project with step-by-step scenes illustrating some of the formal elements of game development in Unity, including: 
+## Author:
+**👤 Raphaël Coeffic — 337614747
 
-* Prefabs for instantiating new objects;
-* Colliders for triggering outcomes of actions;
-* Coroutines for setting time-based rules.
+---
 
-Text explanations are available 
-[here](https://github.com/gamedev-at-ariel/gamedev-5782) in folder 04.
+## 🎮 Play the Game  
+Itch.io Link: https://raphael-coeffic.itch.io/03-homework
 
-## Cloning
-To clone the project, you may need to install git lfs first (if it is not already installed):
+---
 
-    git lfs install 
+## 📝 Game Description  
+Space Survivor is a fast-paced 2D arcade shooter made in Unity.  
+You control a small spaceship, destroy enemies, collect hearts, survive waves, and try to achieve the highest score.
+This project was developed for the Game Development Course in university.
 
-To clone faster, you can limit the depth to 1 like this:
+---
 
-    git clone --depth=1 https://github.com/<repository-name>.git
+## How to Play:  
 
-When you first open this project, you may not see the text in the score field.
-This is because `TextMeshPro` is not in the project.
-The Unity Editor should hopefully prompt you to import TextMeshPro;
-once you do this, re-open the scenes, and you should be able to see the texts.
+- Move with the Arrow Keys  
+- Shoot with Space 
+- Score: +1 for each enemy destroyed (shown top-right)  
+- Lives: you start with 3 hearts  
+- Colliding with an enemy = –1 life  
+- Heart pickups restore 1 life (max 3)  
+- When lives reach 0 it's Game Over
+- When you finish the levels you win.
+
+---
+
+## Features Added for the Assignment  
+
+### 1. Score displayed in a fixed corner  
+- The score no longer follows the spaceship.  
+- It now appears in the top-left corner and it is responsive.
 
 
+### 2. Heart-based life system  
+- Player starts with 3 lives.  
+- A custom HeartsUI displays full/faded hearts.  
+- At 0 lives → GameOver scene.
+- Random spawns of hearths via `HeartSpawner`.  
+- Pickups disappear after a few seconds.  
+- Collecting one restores life (max capped).
 
-## Credits
+### 3. Background music + sound effects  
+Includes SFX for:  
+- Shooting  
+- Enemy death  
+- Heart collected  
+- Player death  
+- Final victory  
+Music persists between scenes.
 
-Programming:
-* Maoz Grossman
-* Erel Segal-Halevi
+### ✅ 6. Animated scrolling background  
+- Vertical movement creates a dynamic “space-travel” effect.
 
-Online courses:
-* [The Ultimate Guide to Game Development with Unity 2019](https://www.udemy.com/the-ultimate-guide-to-game-development-with-unity/), by Jonathan Weinberger
+### ✅ 7. Extra polish & improvements  
+- Improved UI layout  
+- Clean scripts  
+- Better prefab/layer organization  
 
-Graphics:
-* [Matt Whitehead](https://ccsearch.creativecommons.org/photos/7fd4a37b-8d1a-4d4c-80a2-4ca4a3839941)
-* [Kenney's space kit](https://kenney.nl/assets/space-kit)
-* [Ductman's 2D Animated Spacehips](https://assetstore.unity.com/packages/2d/characters/2d-animated-spaceships-96852)
-* [Franc from the Noun Project](https://commons.wikimedia.org/w/index.php?curid=64661575)
-* [Greek-arrow-animated.gif by Andrikkos is licensed under CC BY-SA 3.0](https://search.creativecommons.org/photos/2db102af-80d0-4ec8-9171-1ac77d2565ce)
+---
+
+## 📁 Project Structure  
+
