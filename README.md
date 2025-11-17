@@ -2,7 +2,7 @@
 ## Unity Project –  3. Prefabs & Triggers Assignment  
 
 ## Author:
-👤 Raphaël Coeffic — 337614747
+👤 Raphael Coeffic — 337614747
 
 
 ## Play the Game  
