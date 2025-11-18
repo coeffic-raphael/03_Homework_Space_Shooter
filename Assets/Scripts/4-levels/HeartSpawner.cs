@@ -25,13 +25,13 @@ public class HeartSpawner : MonoBehaviour
     {
         if (heartPrefab == null)
         {
-            Debug.LogWarning("[HeartSpawner] heartPrefab manquant !");
+            Debug.LogWarning("[HeartSpawner] heartPrefab missing !");
             return;
         }
         Camera cam = Camera.main;
         if (cam == null || !cam.orthographic)
         {
-            Debug.LogWarning("[HeartSpawner] Pas de caméra orthographique trouvée.");
+            Debug.LogWarning("[HeartSpawner] No camera found.");
             return;
         }
         float height = 2f * cam.orthographicSize;
