@@ -13,7 +13,7 @@ public class BackgroundScroller : MonoBehaviour
         }
         else
         {
-            Debug.LogError("[BackgroundScroller] Aucun SpriteRenderer trouvé sur " + gameObject.name);
+            Debug.LogError("[BackgroundScroller] No SpriteRenderer found on " + gameObject.name);
         }
     }
 
